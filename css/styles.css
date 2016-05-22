@@ -1,0 +1,123 @@
+p, h1 {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+
+/*Navigation*/
+
+.navbar {
+    background: #375151;
+    border-bottom: 1px solid #b9b9b9;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar a {
+    color: #cccccc !important;
+}
+
+.navbar a:hover {
+    color:  !important;
+    background-color: #646464 !important;
+}
+
+.navbar-header .navbar-brand {
+    color: white !important;
+    font-size: 1.5em;
+    font-family: 'muli', sans-serif;
+    
+}
+
+/* Header */
+
+.header {
+    padding: 140px 0 60px;
+    background: url(../img/BHbg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'muli', cursive;
+    font-size: 7.5em;
+}
+.header p {
+    color: white;
+    font-size: 1.3em;
+}
+
+.header .btn {
+    padding: 5px 50px 5px 50px;
+    border-radius: 0px;
+}
+
+
+/*About Section*/
+
+.about {
+    padding: 50px 0 100px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 1.9em;
+color: #375151;
+    padding: 0 0 25px;
+}
+
+.about p {
+    padding-bottom: 15px;
+}
+/*features Section*/
+
+.features {
+    background-color: #375151;
+    text-align: center;
+    color: white;
+    padding: 90px 0 90px;
+}
+
+.features h1 {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.features img {
+    padding: 15px 0 25px;
+
+}
+/*press section*/
+
+.press {
+    background-color: white;
+    color: #337ab7;
+}
+
+/*Media Queries*/
+
+/*Under 768px*/
+@media(max-width:768px) {
+    .header {
+        text-align: center;
+        padding-top: 20%;
+    }
+    
+    .header h1 {
+        font-size: 5em;
+        
+    }
+    .header p {
+        font-size: 1em;
+    }
+    
+    .header .btn {
+        padding: 4px 12px 5px 12px;
+    }
+    
+    .header img {
+        padding-top: 10%;
+        
+    }
+    
+}

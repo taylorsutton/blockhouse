@@ -87,11 +87,19 @@ color: #375151;
     padding: 15px 0 25px;
 
 }
-/*press section*/
 
-.press {
+/*Product Section*/
+.products {
     background-color: white;
     color: #337ab7;
+}
+
+
+/*contact section*/
+
+.contact {
+    background-color: #375151;
+    color: white;
 }
 
 /*Media Queries*/

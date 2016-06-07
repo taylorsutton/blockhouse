@@ -37,6 +37,12 @@ p, h1 {
     border-bottom: 2px solid #c9c9c9;
 }
 
+.header .img-responsive {
+
+transform: translateY(90px);
+max-width: 80%;
+}
+
 .header h1 {
     color: white;
     font-family: 'muli', cursive;
@@ -104,8 +110,10 @@ color: black;
 
 /*Media Queries*/
 
+
+
 /*Under 768px*/
-@media(max-width:768px) {
+@media(max-width:1000px) {
     .header {
         text-align: center;
         padding-top: 20%;
@@ -115,6 +123,12 @@ color: black;
         font-size: 5em;
         
     }
+    
+    .header .img-responsive {
+
+transform: translateY(0);
+max-width: 50%;
+}
     .header p {
         font-size: 1em;
     }

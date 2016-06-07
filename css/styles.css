@@ -12,7 +12,7 @@ p, h1 {
 }
 
 .navbar a {
-    color: #cccccc !important;
+    color: black !important;
 }
 
 .navbar a:hover {
@@ -21,7 +21,7 @@ p, h1 {
 }
 
 .navbar-header .navbar-brand {
-    color: white !important;
+    color: black important!;
     font-size: 1.5em;
     font-family: 'muli', sans-serif;
     
@@ -91,7 +91,7 @@ color: black;
 /*Product Section*/
 .products {
     background-color: white;
-    color: #ffffff;
+    color: black;
 }
 
 

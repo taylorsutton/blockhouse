@@ -6,7 +6,7 @@ p, h1 {
 /*Navigation*/
 
 .navbar {
-    background: #375151;
+    background: #ffffff;
     border-bottom: 1px solid #b9b9b9;
     font-family: 'Lato', sans-serif;
 }
@@ -31,7 +31,7 @@ p, h1 {
 
 .header {
     padding: 140px 0 60px;
-    background: url(../img/BHbg.jpg) no-repeat center center;
+    background: url(../img/BHbg1.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     border-bottom: 2px solid #c9c9c9;
@@ -62,7 +62,7 @@ p, h1 {
 
 .about h1 {
     font-size: 1.9em;
-color: #375151;
+color: black;
     padding: 0 0 25px;
 }
 
@@ -72,7 +72,7 @@ color: #375151;
 /*features Section*/
 
 .features {
-    background-color: #375151;
+    background-color: #86abad;
     text-align: center;
     color: white;
     padding: 90px 0 90px;
@@ -91,14 +91,14 @@ color: #375151;
 /*Product Section*/
 .products {
     background-color: white;
-    color: #337ab7;
+    color: #ffffff;
 }
 
 
 /*contact section*/
 
 .contact {
-    background-color: #375151;
+    background-color: #ffffff;
     color: white;
 }
 

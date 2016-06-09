@@ -17,13 +17,13 @@ p, h1 {
 
 .navbar a:hover {
     color:  !important;
-    background-color: #646464 !important;
+   color: #86abad !important;
 }
 
 .navbar-header .navbar-brand {
     color: black important!;
     font-size: 1.5em;
-    font-family: 'muli', sans-serif;
+    font-family: 'Muli', sans-serif;
     
 }
 
@@ -45,7 +45,7 @@ max-width: 80%;
 
 .header h1 {
     color: white;
-    font-family: 'muli', cursive;
+    font-family: 'Muli', sans-serif;
     font-size: 7.5em;
 }
 .header p {
@@ -81,7 +81,7 @@ color: black;
     background-color: #86abad;
     text-align: center;
     color: white;
-    padding: 90px 0 90px;
+    padding: 45px 0 45px;
 }
 
 .features h1 {
@@ -104,7 +104,7 @@ color: black;
 /*contact section*/
 
 .contact {
-    background-color: #ffffff;
+    background-color: #86abad;
     color: white;
 }
 
